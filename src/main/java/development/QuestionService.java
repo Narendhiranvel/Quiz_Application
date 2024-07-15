@@ -16,6 +16,7 @@ public class QuestionService {
 		
 	}
 
+	// Calculating the score 
 	public void displayQuestions() {
 		int i =0;
 		int score = 0;
