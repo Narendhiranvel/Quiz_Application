@@ -1,7 +1,7 @@
 package development;
 
 public class Question {
-	
+	// adding variables
 	private int id;
 	private String question;
 	private String opt1;
@@ -66,7 +66,7 @@ public class Question {
 		this.answer = answer;
 	}
 
-
+// toString methods
 	@Override
 	public String toString() {
 		return "Question [id=" + id + ", question=" + question + ", opt1=" + opt1 + ", opt2=" + opt2 + ", opt3=" + opt3
